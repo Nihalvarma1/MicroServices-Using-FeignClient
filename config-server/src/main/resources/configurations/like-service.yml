@@ -1,0 +1,14 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: like-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/socialmedia
+    username: root
+    password: pass@word1
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      ssl-auto: true
